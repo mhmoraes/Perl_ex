@@ -1,0 +1,13 @@
+@input =<STDIN>;
+@names = qw {
+	fred
+	betty
+	barney
+	dino
+	wilma
+	pebbles
+	bamm-bamm
+};
+foreach $number (@input){
+	print @names[$number - 1]." "	;
+}

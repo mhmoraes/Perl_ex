@@ -1,0 +1,9 @@
+@input =<STDIN>;
+@reversed_list =()
+
+foreach $var (@input) {
+	$var1= chomp $var;
+	unshift(@reversed_list, $var1);
+}
+
+print @reversed_list;
